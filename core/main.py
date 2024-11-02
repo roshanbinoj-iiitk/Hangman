@@ -99,7 +99,3 @@ def human_pc():#computer guessing
         c_word = human_pc_game_win(False, word, lives_lost, 'I')  
         if c_word != []:
             learn_word(c_word[0])  # Learning the word if guess was wrong
-
-
-
-

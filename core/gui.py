@@ -1,11 +1,11 @@
 import tkinter as tk
 
 # === Props ===
-bg = '#4c00e6'
-btn_bg = btn_active_fg = 'black'
-btn_fg = btn_active_bg = '#884dff'
-text_bg = '#aa80ff'
-text_col = '#19004d'
+bg = '#37AFE1'
+btn_bg = btn_active_fg = '#F5F4B3'
+btn_fg = btn_active_bg = '#EC8305'
+text_bg = '#024CAA'
+text_col = '#EC8305'
 # ===
 
 # Function to get the number of letters from the user
@@ -201,9 +201,3 @@ def lifelost(life_no):
         return 7
     elif life_no == 8 or life_no == 9:
         return 8
-
-                                                                                                                        
-                                                                                                                        
-
-
-
