@@ -38,3 +38,34 @@ In this mode, the user thinks of a word, and the program attempts to guess it. H
 
 The Tkinter GUI toolkit enhances the user experience by providing an interactive and user-friendly interface, ensuring smooth gameplay and making it accessible for players of all ages.
 
+# Methodology
+
+## Approach and Methodology Employed
+
+The game features two distinct modes: one where the user guesses a word and another where the computer attempts to guess the user's word. 
+
+### 1. User Guessing Mode
+- A random word is selected from a database, leveraging the `random` module to ensure a fair and varied gameplay experience. The program tracks both correct and incorrect guesses to guide the user’s attempts.
+
+### 2. Computer Guessing Mode
+- In this mode, the computer starts by identifying the positions of any vowels in the target word, followed by guessing consonants. This structured approach enhances the computer's guessing strategy, making it more effective in determining the word.
+
+### 3. Learning Functionality
+- If the program fails to guess the correct word, a learning function is triggered, allowing the program to update its knowledge base for future games.
+
+## Code Structure
+The implementation is divided among three main files:
+- **`main.py`**: Handles the core logic for both game modes, processing user inputs and managing game state.
+- **`dbcon.py`**: Facilitates database interactions, executing MySQL commands as Python strings to fetch words based on user inputs.
+- **`gui.py`**: Manages the graphical user interface, defining the layout and handling user interactions by relaying inputs to `main.py` and `dbcon.py`.
+
+## Tools, Technologies, and Frameworks Used
+
+### Modules and Libraries
+- **`os`**: Utilized for database setup and management.
+- **`random`**: Employed for selecting random words and generating letter guesses.
+- **`mysql.connector`**: Used to execute MySQL commands within the Python environment, facilitating efficient database operations.
+- **`tkinter`**: The framework for developing the user interface, providing an interactive experience for users.
+
+In addition to standard Python functionalities, MySQL serves as a robust solution for organizing the word list, allowing for efficient lookups and input manipulation, enhancing the overall gameplay experience.
+
