@@ -8,6 +8,58 @@ In this project, we are implementing a digital version of Hangman where both hum
 
 This documentation will guide you through the development process, detailing the game's design, features, and technical specifications. Join us as we explore the world of Hangman and create a memorable gaming experience for everyone involved!
 
+## Installation
+
+Follow these steps to set up the project on your local machine:
+
+### Prerequisites
+
+- Python 3.6 or higher
+- Pip (Python package installer)
+
+### Steps
+
+1. **Clone the repository** (if applicable):
+   ```bash
+   git clone <repository-url>
+   cd Hangman
+   ```
+
+2. **Create a virtual environment**:
+   ```bash
+   python -m venv env
+   ```
+
+3. **Activate the virtual environment**:
+* On Windows:
+   ```bash
+   .\env\Scripts\activate
+   ```
+* On macOS/Linux:
+    ```bash
+    source env/bin/activate
+    ```
+
+4. **Create a `.env` file**:
+In the root of your project directory, create a file named `.env` and add the following lines, replacing `your_mysql_username` and `your_mysql_password` with your actual MySQL credentials:
+
+    ```makefile
+    DB_USER=your_mysql_username
+    DB_PASS=your_mysql_password
+    ```
+
+5. **Install the required packages** (if applicable):
+Run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+6. **Run the application** (if applicable):
+ After installation, you can start the game with:
+   ```bash
+   python hangman.py
+   ```
+
 # Project Overview
 
 This project aims to develop a digital version of the classic Hangman game using Python, the Tkinter graphical user interface (GUI) toolkit, and a MySQL database.
