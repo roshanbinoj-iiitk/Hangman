@@ -121,3 +121,38 @@ The implementation is divided among three main files:
 
 In addition to standard Python functionalities, MySQL serves as a robust solution for organizing the word list, allowing for efficient lookups and input manipulation, enhancing the overall gameplay experience.
 
+# Screenshots
+
+![a](projectpics/mainimage.png)
+
+## User vs Computer
+
+Word is godforsaken🤫
+
+![u1](projectpics/User1.png)
+![u2](projectpics/User2.png)
+![u3](projectpics/User3.png)
+![u4](projectpics/User4.png)
+![u5](projectpics/User5.png)
+![u6](projectpics/User6.png)
+![u7](projectpics/User7.png)
+![u8](projectpics/User8.png)
+![u9](projectpics/User9.png)
+
+## Computer vs User
+
+Word is abacus🤫
+
+![c1](projectpics/Comp1.png)
+![c2](projectpics/Comp2.png)
+![c3](projectpics/Comp3.png)
+![c4](projectpics/Comp4.png)
+![c5](projectpics/Comp5.png)
+![c6](projectpics/Comp6.png)
+![c7](projectpics/Comp7.png)
+![c8](projectpics/Comp8.png)
+![c9](projectpics/Comp9.png)
+![c10](projectpics/Comp10.png)
+![c11](projectpics/Comp11.png)
+![c12](projectpics/Comp12.png)
+![c13](projectpics/Comp13.png)
