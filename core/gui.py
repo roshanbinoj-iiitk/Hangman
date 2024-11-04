@@ -183,21 +183,7 @@ def human_pc_game_win(status, word, lives_lost, person="You"):
 
 # Function to handle life lost
 def lifelost(life_no):
-    if life_no == 0:
-        return 0
-    elif life_no == 1:
-        return 1
-    elif life_no == 2:
-        return 2
-    elif life_no == 3:
-        return 3
-    elif life_no == 4:
-        return 4
-    elif life_no == 5:
-        return 5
-    elif life_no == 6:
-        return 6
-    elif life_no == 7:
-        return 7
-    elif life_no == 8 or life_no == 9:
+    if life_no >= 0 and life_no <=8:
+        return life_no
+    elif life_no == 9:
         return 8
