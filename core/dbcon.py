@@ -42,6 +42,17 @@ def initial_setup():
         open('./core/.done', 'w').close()
         print("Database setup complete.")
 
+def learn_word(word):
+    """Learn a new word by inserting it into the database."""
+    db, cur = db_con_()
+    if cur is None:
+        return
+    
+    cur.execute('INSERT INTO words (word) VALUES (%s)', (word,))
+    print("Word learnt.")
+    db.commit()
+    db.close()
+
 def filter_out(word, trash_chars):
     """Filter out words based on the provided characters."""
     new_word = ''.join(word)
@@ -57,17 +68,6 @@ def filter_out(word, trash_chars):
     return [w for w in filtered_words if not any(char in w for char in trash_chars)]
 
 common_chars1 = ['a', 'e', 'o', 'i']
-
-def learn_word(word):
-    """Learn a new word by inserting it into the database."""
-    db, cur = db_con_()
-    if cur is None:
-        return
-    
-    cur.execute('INSERT INTO words (word) VALUES (%s)', (word,))
-    print("Word learnt.")
-    db.commit()
-    db.close()
 
 def educated_guess(word, trash_chars, used_chars):
     # Initialize a dictionary to count letter occurrences
