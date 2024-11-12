@@ -121,6 +121,15 @@ The implementation is divided among three main files:
 
 In addition to standard Python functionalities, MySQL serves as a robust solution for organizing the word list, allowing for efficient lookups and input manipulation, enhancing the overall gameplay experience.
 
+## Contributors
+
+- **[Roshan Binoj](https://github.com/roshanbinoj-iiitk)** - 2023BCS0009
+- **[Aswin M](https://github.com/asw-beep)** - 2023BCS0012
+- **[Ravishankar R](https://github.com/RAVICODES2005)** - 2023BCS0015
+- **[Mahadev P Nair](https://github.com/mahadevpnair10)** - 2023BCS0018
+- **[Gourilakshmi S](https://github.com/gouri00)** - 2023BCS0021
+- **[Divon John](https://github.com/DivonJohn)** - 2023BCS0024
+
 # Screenshots
 
 ![a](projectpics/mainimage.png)
